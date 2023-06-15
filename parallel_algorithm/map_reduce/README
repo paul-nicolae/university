@@ -1,0 +1,69 @@
+Nicolae Paul
+333CB
+
+    Tema are un singur fisier sursa care incepe prin definirea a doua structuri
+care vor fi folosite pentru a instantia argumentele pasate subrutinelor
+threadurilor folosite in main.
+
+• argMapper este folosita pentru threadurile mapper si are ca si campuri:
+    - mapperMatrix = pointer catre o matrice de vectori in care stochez datele
+pe care le parseaza din fisierele de input threadurile mapper.
+    - inputFiles = o stiva in care retin fisierele de input ca stringuri cu
+scopul ca atunci cand un thread termina de parsat un fisier sa inceapa imediat
+sa-l prelucreze pe urmatorul din stiva pentru o distribuire cat mai echilibrata
+intre cantitatea de memorie procesata de fiecare mapper in parte.
+    - mutex = folosit pentru a bloca orice operatie facuta pe stack pentru a
+preveni ca doi mapper sa dea top la acelasi fisier de input din stack.
+    - barrier = folosita pentru ca toti mapperii sa-si termine de rulat
+subrutinele pana sa inceapa reducerii sa-si execute functiile.
+    - indexMapper = folosit pentru a indentifica mapperul curent in funcMapper
+pentru a sti la ce linie din mapperMatrix stocam datele.
+    - nrReducers = sa stim pentru cati exponenti verificam puterile perfecte.
+
+• argReducer este folosita pentru threadurile reducer si are ca si campuri:
+    - result = pointer la un vector de seturi unde stocam pentru fiecare reducer
+toate numerele perfecte o singura data in urma unei parcurgeri pe coloane in
+matricea cu datele pasate de mappers.
+    - mapperMatrix = pointer la matricea cu datele de input parsate de mappers
+care urmeaza sa fie prelucrata de reducers.
+    - indexReducer = folosit pentru a indentifica reducerul curent in funcReducer
+pentru a sti la ce coloana din mapperMatrix urmeaza sa prelucram datele.
+    - nrMappers = sa stim numarul de linii din matricea in care avem datele
+parsate de mappers.
+
+• Functia isSquareNumber primeste un numar si exponentul pentru care vrea sa
+se verifice daca este putere perfecta. Tipurile de date sunt size_t pentru a
+putea lucra cu numere mari. Algoritmul consta intr-o cautare binara in care se
+cauta o baza care ridicata la al doilea argument al functiei (exponentul) sa
+fie egala cu primul argument (numarul).
+
+• funcMapper este subrutina apelata de threadurile map din main. Cu ajutorul
+unui stack in care am salvate toate fisierele de inpus sub forma de stringuri
+verific in mod constant daca exista un fisier pe care un thread care s-a
+eliberat sa poata sa-l ia si sa-l parseze. Astfel asigur distributia uniforma
+a momeriei din folderul de input pe care o prelucreaza fiecare mapper in parte.
+Blocchez operatiile pe stiva cu un mutex pentru a nu permite mai multor
+threaduri simultan sa faca top pe stack si sa inceapa sa prelucreze acelasi fisier.
+Pentru fiecare fisier in parte mapperul curent parseaza fiecare numar gasit,
+verifica daca e numar perfect, si-l adauga in matricea in care stocam toate numerele
+perfecte de oricate ori. La final pun bariera sa ma asigur ca reducerii asteapta
+ca mapperi sa termine de prelucrat fiecare fisier.
+
+• funcReducer este subrutina apelata de threadurile reduce din main. Functia incepe
+cu o bariera care asteapta ca mapperi sa termine de parsat, cu scopul ca reducerii
+sa lucreze cu matricea de date complet prelucrata. In aceasta matrice, in urma unei
+parcurgeri pe coloane, reducerii iau fiecare numar si il insereaza intr-un set,
+rolul reducerilor fiind de a intoarce un vectori de seturi cu toate numerele
+perfecte din matricea parsata de mapperi.
+
+    Flowul din main e simplu si clasic pentru o tema de apd, fiind asemanator
+cu labul 1, doar putin extins.
+    Citim parametrii din linia de comanda. Alocam memorie pentru structurile si
+cumpurilor lor unde urmeaza sa stocam datele pe care threadurile urmeaza sa le
+parseze si sa le prelucreze. Cream o stiva cu fisierele de input sub forma de
+stringuri. Si apoi cream threadurile de map si reduce in acelasi timp, dand
+apoi pentru fiecare thread in parte join pentru a spune threadului main sa astepte
+ca fiecare thread sa isi termine executia pentru a putea trece mai departe.
+    La final, dupa ce toate threadurile s-au oprit, afisam intr-un numar de
+fisiere de output egal cu numarul de threaduri reduce numarul de numere perfecte
+din fiecare set din vectorul de seturi prelucrat de reduceri.
