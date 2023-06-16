@@ -1,0 +1,366 @@
+2023-04-24 20:10:52,300, INFO, 37 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,300, INFO, 23 is publishing the product Tea(name='White Peach', price=5, type='White')
+2023-04-24 20:10:52,300, INFO, 46 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,301, INFO, queue is full, producer 37 should wait
+2023-04-24 20:10:52,301, INFO, queue is full, producer 23 should wait
+2023-04-24 20:10:52,302, INFO, queue is full, producer 46 should wait
+2023-04-24 20:10:52,309, INFO, 33 is publishing the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,310, INFO, queue is full, producer 33 should wait
+2023-04-24 20:10:52,314, INFO, 12 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,314, INFO, queue is full, producer 12 should wait
+2023-04-24 20:10:52,318, INFO, 42 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,318, INFO, 21 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,318, INFO, queue is full, producer 42 should wait
+2023-04-24 20:10:52,318, INFO, queue is full, producer 21 should wait
+2023-04-24 20:10:52,318, INFO, 35 is publishing the product Tea(name='English Breakfast', price=2, type='Black')
+2023-04-24 20:10:52,319, INFO, queue is full, producer 35 should wait
+2023-04-24 20:10:52,320, INFO, 48 is publishing the product Tea(name='English Breakfast', price=2, type='Black')
+2023-04-24 20:10:52,320, INFO, queue is full, producer 48 should wait
+2023-04-24 20:10:52,320, INFO, 32 is publishing the product Tea(name='White Peach', price=5, type='White')
+2023-04-24 20:10:52,321, INFO, queue is full, producer 32 should wait
+2023-04-24 20:10:52,322, INFO, 26 is publishing the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,322, INFO, producer 26 has been published the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,325, INFO, 7 is publishing the product Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,325, INFO, queue is full, producer 7 should wait
+2023-04-24 20:10:52,333, INFO, 29 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,334, INFO, queue is full, producer 29 should wait
+2023-04-24 20:10:52,335, INFO, 15 is publishing the product Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,335, INFO, queue is full, producer 15 should wait
+2023-04-24 20:10:52,336, INFO, 27 is publishing the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,337, INFO, producer 27 has been published the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,340, INFO, 31 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,341, INFO, queue is full, producer 31 should wait
+2023-04-24 20:10:52,346, INFO, 16 is publishing the product Tea(name='Jasmine', price=6, type='Green')
+2023-04-24 20:10:52,347, INFO, queue is full, producer 16 should wait
+2023-04-24 20:10:52,355, INFO, 11 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,355, INFO, producer 11 has been published the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,356, INFO, 28 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,356, INFO, queue is full, producer 28 should wait
+2023-04-24 20:10:52,360, INFO, 41 is publishing the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,360, INFO, queue is full, producer 41 should wait
+2023-04-24 20:10:52,361, INFO, 14 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,361, INFO, queue is full, producer 14 should wait
+2023-04-24 20:10:52,365, INFO, 38 is publishing the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,366, INFO, queue is full, producer 38 should wait
+2023-04-24 20:10:52,366, INFO, 45 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,366, INFO, queue is full, producer 45 should wait
+2023-04-24 20:10:52,367, INFO, 9 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,367, INFO, queue is full, producer 9 should wait
+2023-04-24 20:10:52,372, INFO, 3 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,372, INFO, producer 3 has been published the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,376, INFO, 13 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,377, INFO, queue is full, producer 13 should wait
+2023-04-24 20:10:52,381, INFO, 37 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,382, INFO, queue is full, producer 37 should wait
+2023-04-24 20:10:52,382, INFO, 46 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,382, INFO, queue is full, producer 46 should wait
+2023-04-24 20:10:52,384, INFO, 18 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,384, INFO, queue is full, producer 18 should wait
+2023-04-24 20:10:52,390, INFO, 48 is publishing the product Tea(name='English Breakfast', price=2, type='Black')
+2023-04-24 20:10:52,390, INFO, queue is full, producer 48 should wait
+2023-04-24 20:10:52,394, INFO, 36 is publishing the product Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,395, INFO, queue is full, producer 36 should wait
+2023-04-24 20:10:52,396, INFO, 50 is publishing the product Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,397, INFO, queue is full, producer 50 should wait
+2023-04-24 20:10:52,397, INFO, 1 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,397, INFO, producer 1 has been published the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,404, INFO, 43 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,405, INFO, queue is full, producer 43 should wait
+2023-04-24 20:10:52,405, INFO, 7 is publishing the product Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,405, INFO, queue is full, producer 7 should wait
+2023-04-24 20:10:52,407, INFO, 27 is publishing the product Tea(name='Jasmine', price=6, type='Green')
+2023-04-24 20:10:52,407, INFO, producer 27 has been published the product Tea(name='Jasmine', price=6, type='Green')
+2023-04-24 20:10:52,410, INFO, 34 is publishing the product Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-24 20:10:52,410, INFO, queue is full, producer 34 should wait
+2023-04-24 20:10:52,411, INFO, consumer is trying to add the product Tea(name='Jasmine', price=6, type='Green') into cart 122
+2023-04-24 20:10:52,412, INFO, the product Tea(name='Jasmine', price=6, type='Green') has been added to cart 122
+2023-04-24 20:10:52,412, INFO, consumer is trying to add the product Tea(name='Jasmine', price=6, type='Green') into cart 122
+2023-04-24 20:10:52,413, ERROR, product Tea(name='Jasmine', price=6, type='Green') not available, the consumer should wait
+2023-04-24 20:10:52,417, INFO, 17 is publishing the product Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-24 20:10:52,417, INFO, 49 is publishing the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,417, INFO, queue is full, producer 17 should wait
+2023-04-24 20:10:52,418, INFO, queue is full, producer 49 should wait
+2023-04-24 20:10:52,425, INFO, 15 is publishing the product Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,425, INFO, queue is full, producer 15 should wait
+2023-04-24 20:10:52,428, INFO, consumer is trying to add the product Tea(name='Jasmine', price=6, type='Green') into cart 435
+2023-04-24 20:10:52,429, ERROR, product Tea(name='Jasmine', price=6, type='Green') not available, the consumer should wait
+2023-04-24 20:10:52,433, INFO, 19 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,433, INFO, queue is full, producer 19 should wait
+2023-04-24 20:10:52,436, INFO, consumer is trying to add the product Tea(name='Jasmine', price=6, type='Green') into cart 453
+2023-04-24 20:10:52,437, ERROR, product Tea(name='Jasmine', price=6, type='Green') not available, the consumer should wait
+2023-04-24 20:10:52,439, INFO, 35 is publishing the product Tea(name='English Breakfast', price=2, type='Black')
+2023-04-24 20:10:52,439, INFO, queue is full, producer 35 should wait
+2023-04-24 20:10:52,444, INFO, 12 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,444, INFO, queue is full, producer 12 should wait
+2023-04-24 20:10:52,449, INFO, 5 is publishing the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,449, INFO, producer 5 has been published the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,453, INFO, 6 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,453, INFO, producer 6 has been published the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,455, INFO, 20 is publishing the product Tea(name='White Peach', price=5, type='White')
+2023-04-24 20:10:52,455, INFO, queue is full, producer 20 should wait
+2023-04-24 20:10:52,457, INFO, 40 is publishing the product Tea(name='English Breakfast', price=2, type='Black')
+2023-04-24 20:10:52,457, INFO, queue is full, producer 40 should wait
+2023-04-24 20:10:52,458, INFO, 9 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,458, INFO, queue is full, producer 9 should wait
+2023-04-24 20:10:52,459, INFO, 21 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,459, INFO, queue is full, producer 21 should wait
+2023-04-24 20:10:52,460, INFO, 33 is publishing the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,460, INFO, queue is full, producer 33 should wait
+2023-04-24 20:10:52,461, INFO, 48 is publishing the product Tea(name='English Breakfast', price=2, type='Black')
+2023-04-24 20:10:52,461, INFO, queue is full, producer 48 should wait
+2023-04-24 20:10:52,462, INFO, 37 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,462, INFO, queue is full, producer 37 should wait
+2023-04-24 20:10:52,462, INFO, 2 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,462, INFO, 46 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,462, INFO, producer 2 has been published the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,462, INFO, queue is full, producer 46 should wait
+2023-04-24 20:10:52,466, INFO, 11 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,466, INFO, producer 11 has been published the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,466, INFO, 45 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,467, INFO, queue is full, producer 45 should wait
+2023-04-24 20:10:52,484, INFO, 18 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,485, INFO, queue is full, producer 18 should wait
+2023-04-24 20:10:52,486, INFO, 7 is publishing the product Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,486, INFO, queue is full, producer 7 should wait
+2023-04-24 20:10:52,489, INFO, 44 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,489, INFO, queue is full, producer 44 should wait
+2023-04-24 20:10:52,493, INFO, 30 is publishing the product Tea(name='Jasmine', price=6, type='Green')
+2023-04-24 20:10:52,493, INFO, queue is full, producer 30 should wait
+2023-04-24 20:10:52,513, INFO, 3 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,513, INFO, producer 3 has been published the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,516, INFO, 15 is publishing the product Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,516, INFO, 38 is publishing the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,516, INFO, queue is full, producer 15 should wait
+2023-04-24 20:10:52,516, INFO, queue is full, producer 38 should wait
+2023-04-24 20:10:52,521, INFO, 32 is publishing the product Tea(name='White Peach', price=5, type='White')
+2023-04-24 20:10:52,521, INFO, queue is full, producer 32 should wait
+2023-04-24 20:10:52,525, INFO, 36 is publishing the product Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,525, INFO, queue is full, producer 36 should wait
+2023-04-24 20:10:52,528, INFO, 42 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,529, INFO, queue is full, producer 42 should wait
+2023-04-24 20:10:52,530, INFO, 34 is publishing the product Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-24 20:10:52,530, INFO, queue is full, producer 34 should wait
+2023-04-24 20:10:52,531, INFO, 48 is publishing the product Tea(name='English Breakfast', price=2, type='Black')
+2023-04-24 20:10:52,531, INFO, queue is full, producer 48 should wait
+2023-04-24 20:10:52,536, INFO, 4 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,536, INFO, producer 4 has been published the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,541, INFO, 31 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,541, INFO, queue is full, producer 31 should wait
+2023-04-24 20:10:52,542, INFO, 37 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,542, INFO, queue is full, producer 37 should wait
+2023-04-24 20:10:52,543, INFO, 46 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,543, INFO, queue is full, producer 46 should wait
+2023-04-24 20:10:52,545, INFO, 43 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,545, INFO, queue is full, producer 43 should wait
+2023-04-24 20:10:52,548, INFO, 9 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,548, INFO, queue is full, producer 9 should wait
+2023-04-24 20:10:52,559, INFO, 35 is publishing the product Tea(name='English Breakfast', price=2, type='Black')
+2023-04-24 20:10:52,560, INFO, queue is full, producer 35 should wait
+2023-04-24 20:10:52,565, INFO, 24 is publishing the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,565, INFO, queue is full, producer 24 should wait
+2023-04-24 20:10:52,566, INFO, 7 is publishing the product Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,566, INFO, queue is full, producer 7 should wait
+2023-04-24 20:10:52,566, INFO, 28 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,566, INFO, queue is full, producer 28 should wait
+2023-04-24 20:10:52,567, INFO, 45 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,567, INFO, 50 is publishing the product Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,567, INFO, queue is full, producer 45 should wait
+2023-04-24 20:10:52,567, INFO, queue is full, producer 50 should wait
+2023-04-24 20:10:52,575, INFO, 47 is publishing the product Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,575, INFO, queue is full, producer 47 should wait
+2023-04-24 20:10:52,575, INFO, 12 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,575, INFO, queue is full, producer 12 should wait
+2023-04-24 20:10:52,576, INFO, 11 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,577, INFO, producer 11 has been published the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,585, INFO, 18 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,585, INFO, queue is full, producer 18 should wait
+2023-04-24 20:10:52,588, INFO, 22 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,589, INFO, queue is full, producer 22 should wait
+2023-04-24 20:10:52,594, INFO, 19 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,594, INFO, queue is full, producer 19 should wait
+2023-04-24 20:10:52,599, INFO, 21 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,599, INFO, queue is full, producer 21 should wait
+2023-04-24 20:10:52,601, INFO, 25 is publishing the product Tea(name='English Breakfast', price=2, type='Black')
+2023-04-24 20:10:52,601, INFO, 48 is publishing the product Tea(name='English Breakfast', price=2, type='Black')
+2023-04-24 20:10:52,601, INFO, queue is full, producer 25 should wait
+2023-04-24 20:10:52,602, INFO, queue is full, producer 48 should wait
+2023-04-24 20:10:52,607, INFO, 15 is publishing the product Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,607, INFO, queue is full, producer 15 should wait
+2023-04-24 20:10:52,610, INFO, 33 is publishing the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,611, INFO, queue is full, producer 33 should wait
+2023-04-24 20:10:52,623, INFO, 37 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,623, INFO, queue is full, producer 37 should wait
+2023-04-24 20:10:52,623, INFO, 46 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,623, INFO, queue is full, producer 46 should wait
+2023-04-24 20:10:52,625, INFO, 8 is publishing the product Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-24 20:10:52,625, INFO, producer 8 has been published the product Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-24 20:10:52,628, INFO, 49 is publishing the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,628, INFO, queue is full, producer 49 should wait
+2023-04-24 20:10:52,630, INFO, 41 is publishing the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,631, INFO, queue is full, producer 41 should wait
+2023-04-24 20:10:52,632, INFO, 23 is publishing the product Tea(name='White Peach', price=5, type='White')
+2023-04-24 20:10:52,632, INFO, queue is full, producer 23 should wait
+2023-04-24 20:10:52,637, INFO, 39 is publishing the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,637, INFO, queue is full, producer 39 should wait
+2023-04-24 20:10:52,639, INFO, 9 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,639, INFO, queue is full, producer 9 should wait
+2023-04-24 20:10:52,644, INFO, 10 is publishing the product Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,644, INFO, producer 10 has been published the product Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,646, INFO, 7 is publishing the product Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,647, INFO, queue is full, producer 7 should wait
+2023-04-24 20:10:52,651, INFO, 34 is publishing the product Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-24 20:10:52,651, INFO, queue is full, producer 34 should wait
+2023-04-24 20:10:52,653, INFO, 3 is publishing the product Tea(name='English Breakfast', price=2, type='Black')
+2023-04-24 20:10:52,653, INFO, producer 3 has been published the product Tea(name='English Breakfast', price=2, type='Black')
+2023-04-24 20:10:52,654, INFO, 29 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,654, INFO, queue is full, producer 29 should wait
+2023-04-24 20:10:52,655, INFO, 36 is publishing the product Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,656, INFO, queue is full, producer 36 should wait
+2023-04-24 20:10:52,658, INFO, 1 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,658, INFO, producer 1 has been published the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,667, INFO, 38 is publishing the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,667, INFO, queue is full, producer 38 should wait
+2023-04-24 20:10:52,668, INFO, 45 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,668, INFO, queue is full, producer 45 should wait
+2023-04-24 20:10:52,672, INFO, 48 is publishing the product Tea(name='English Breakfast', price=2, type='Black')
+2023-04-24 20:10:52,672, INFO, queue is full, producer 48 should wait
+2023-04-24 20:10:52,673, INFO, 26 is publishing the product Tea(name='Jasmine', price=6, type='Green')
+2023-04-24 20:10:52,673, INFO, producer 26 has been published the product Tea(name='Jasmine', price=6, type='Green')
+2023-04-24 20:10:52,680, INFO, 35 is publishing the product Tea(name='English Breakfast', price=2, type='Black')
+2023-04-24 20:10:52,680, INFO, queue is full, producer 35 should wait
+2023-04-24 20:10:52,685, INFO, 18 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,686, INFO, 43 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,686, INFO, queue is full, producer 18 should wait
+2023-04-24 20:10:52,686, INFO, queue is full, producer 43 should wait
+2023-04-24 20:10:52,687, INFO, 11 is publishing the product Tea(name='White Peach', price=5, type='White')
+2023-04-24 20:10:52,687, INFO, producer 11 has been published the product Tea(name='White Peach', price=5, type='White')
+2023-04-24 20:10:52,697, INFO, 15 is publishing the product Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,698, INFO, queue is full, producer 15 should wait
+2023-04-24 20:10:52,698, INFO, 17 is publishing the product Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-24 20:10:52,698, INFO, queue is full, producer 17 should wait
+2023-04-24 20:10:52,703, INFO, 37 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,703, INFO, 46 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,704, INFO, queue is full, producer 37 should wait
+2023-04-24 20:10:52,704, INFO, queue is full, producer 46 should wait
+2023-04-24 20:10:52,706, INFO, 12 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,706, INFO, queue is full, producer 12 should wait
+2023-04-24 20:10:52,709, INFO, 5 is publishing the product Tea(name='English Breakfast', price=2, type='Black')
+2023-04-24 20:10:52,710, INFO, producer 5 has been published the product Tea(name='English Breakfast', price=2, type='Black')
+2023-04-24 20:10:52,717, INFO, 16 is publishing the product Tea(name='Jasmine', price=6, type='Green')
+2023-04-24 20:10:52,717, INFO, 13 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,717, INFO, queue is full, producer 16 should wait
+2023-04-24 20:10:52,718, INFO, queue is full, producer 13 should wait
+2023-04-24 20:10:52,722, INFO, 32 is publishing the product Tea(name='White Peach', price=5, type='White')
+2023-04-24 20:10:52,722, INFO, queue is full, producer 32 should wait
+2023-04-24 20:10:52,722, INFO, 14 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,722, INFO, queue is full, producer 14 should wait
+2023-04-24 20:10:52,726, INFO, 20 is publishing the product Tea(name='White Peach', price=5, type='White')
+2023-04-24 20:10:52,726, INFO, queue is full, producer 20 should wait
+2023-04-24 20:10:52,727, INFO, 7 is publishing the product Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,727, INFO, queue is full, producer 7 should wait
+2023-04-24 20:10:52,729, INFO, 9 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,729, INFO, queue is full, producer 9 should wait
+2023-04-24 20:10:52,734, INFO, 3 is publishing the product Tea(name='Jasmine', price=6, type='Green')
+2023-04-24 20:10:52,734, INFO, producer 3 has been published the product Tea(name='Jasmine', price=6, type='Green')
+2023-04-24 20:10:52,738, INFO, 50 is publishing the product Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,738, INFO, queue is full, producer 50 should wait
+2023-04-24 20:10:52,739, INFO, 42 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,739, INFO, queue is full, producer 42 should wait
+2023-04-24 20:10:52,740, INFO, 21 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,740, INFO, queue is full, producer 21 should wait
+2023-04-24 20:10:52,741, INFO, 31 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,742, INFO, queue is full, producer 31 should wait
+2023-04-24 20:10:52,743, INFO, 48 is publishing the product Tea(name='English Breakfast', price=2, type='Black')
+2023-04-24 20:10:52,743, INFO, queue is full, producer 48 should wait
+2023-04-24 20:10:52,754, INFO, 19 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,755, INFO, queue is full, producer 19 should wait
+2023-04-24 20:10:52,761, INFO, 33 is publishing the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+2023-04-24 20:10:52,761, INFO, queue is full, producer 33 should wait
+2023-04-24 20:10:52,763, INFO, 2 is publishing the product Tea(name='Jasmine', price=6, type='Green')
+2023-04-24 20:10:52,763, INFO, producer 2 has been published the product Tea(name='Jasmine', price=6, type='Green')
+2023-04-24 20:10:52,766, INFO, 4 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,767, INFO, producer 4 has been published the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,768, INFO, 45 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,768, INFO, queue is full, producer 45 should wait
+2023-04-24 20:10:52,771, INFO, 34 is publishing the product Tea(name='Pai Mu Tan', price=9, type='White')
+2023-04-24 20:10:52,771, INFO, queue is full, producer 34 should wait
+2023-04-24 20:10:52,777, INFO, 28 is publishing the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+2023-04-24 20:10:52,777, INFO, queue is full, producer 28 should wait
+2023-04-24 20:10:52,784, INFO, consumer is trying to add the product Tea(name='Jasmine', price=6, type='Green') into cart 122
+2023-04-24 20:10:52,784, INFO, the product Tea(name='Jasmine', price=6, type='Green') has been added to cart 122
+2023-04-24 20:10:52,784, INFO, 37 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,784, INFO, consumer is placing the order from card 122
+2023-04-24 20:10:52,784, INFO, 46 is publishing the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+2023-04-24 20:10:52,784, INFO, queue is full, producer 37 should wait
+2023-04-24 20:10:52,785, INFO, 10 is publishing the product Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,785, INFO, the order from cart 122 has been placed
+2023-04-24 20:10:52,785, INFO, producer 10 has been published the product Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,785, INFO, queue is full, producer 46 should wait
+2023-04-24 20:10:52,785, INFO, we are creating a new cart
+2023-04-24 20:10:52,786, INFO, a cart has been created
+2023-04-24 20:10:52,786, INFO, 36 is publishing the product Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,786, INFO, consumer is trying to add the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM') into cart 577
+2023-04-24 20:10:52,786, INFO, queue is full, producer 36 should wait
+2023-04-24 20:10:52,786, INFO, 18 is publishing the product Tea(name='Vietnam Oolong', price=10, type='Oolong')
+2023-04-24 20:10:52,786, INFO, the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM') has been added to cart 577
+2023-04-24 20:10:52,787, INFO, queue is full, producer 18 should wait
+2023-04-24 20:10:52,787, INFO, consumer is placing the order from card 577
+2023-04-24 20:10:52,787, INFO, the order from cart 577 has been placed
+2023-04-24 20:10:52,787, INFO, we are creating a new cart
+2023-04-24 20:10:52,787, INFO, a cart has been created
+2023-04-24 20:10:52,787, INFO, consumer is trying to add the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM') into cart 578
+2023-04-24 20:10:52,787, INFO, the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM') has been added to cart 578
+2023-04-24 20:10:52,787, INFO, consumer is trying to add the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM') into cart 578
+2023-04-24 20:10:52,787, INFO, the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM') has been added to cart 578
+2023-04-24 20:10:52,788, INFO, consumer is trying to add the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM') into cart 578
+2023-04-24 20:10:52,788, INFO, the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM') has been added to cart 578
+2023-04-24 20:10:52,788, INFO, consumer is trying to add the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM') into cart 578
+2023-04-24 20:10:52,788, INFO, the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM') has been added to cart 578
+2023-04-24 20:10:52,788, INFO, consumer is trying to add the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM') into cart 578
+2023-04-24 20:10:52,788, INFO, the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM') has been added to cart 578
+2023-04-24 20:10:52,788, INFO, 15 is publishing the product Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,788, INFO, consumer is trying to add the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM') into cart 578
+2023-04-24 20:10:52,788, INFO, 27 is publishing the product Tea(name='Jasmine', price=6, type='Green')
+2023-04-24 20:10:52,788, INFO, queue is full, producer 15 should wait
+2023-04-24 20:10:52,788, INFO, the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM') has been added to cart 578
+2023-04-24 20:10:52,789, INFO, producer 27 has been published the product Tea(name='Jasmine', price=6, type='Green')
+2023-04-24 20:10:52,789, INFO, consumer is trying to add the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM') into cart 578
+2023-04-24 20:10:52,789, INFO, the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM') has been added to cart 578
+2023-04-24 20:10:52,789, INFO, consumer is trying to remove the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM') from cart 578
+2023-04-24 20:10:52,789, INFO, the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM') has been remove from card 578
+2023-04-24 20:10:52,789, INFO, consumer is trying to remove the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM') from cart 578
+2023-04-24 20:10:52,789, INFO, the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM') has been remove from card 578
+2023-04-24 20:10:52,790, INFO, consumer is trying to remove the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM') from cart 578
+2023-04-24 20:10:52,790, INFO, the product Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM') has been remove from card 578
+2023-04-24 20:10:52,790, INFO, consumer is placing the order from card 578
+2023-04-24 20:10:52,790, INFO, the order from cart 578 has been placed
+2023-04-24 20:10:52,800, INFO, consumer is trying to add the product Tea(name='Jasmine', price=6, type='Green') into cart 435
+2023-04-24 20:10:52,800, INFO, the product Tea(name='Jasmine', price=6, type='Green') has been added to cart 435
+2023-04-24 20:10:52,800, INFO, consumer is trying to add the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM') into cart 435
+2023-04-24 20:10:52,801, INFO, 35 is publishing the product Tea(name='English Breakfast', price=2, type='Black')
+2023-04-24 20:10:52,801, INFO, the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM') has been added to cart 435
+2023-04-24 20:10:52,801, INFO, queue is full, producer 35 should wait
+2023-04-24 20:10:52,801, INFO, consumer is trying to add the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM') into cart 435
+2023-04-24 20:10:52,801, INFO, the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM') has been added to cart 435
+2023-04-24 20:10:52,801, INFO, consumer is trying to add the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM') into cart 435
+2023-04-24 20:10:52,801, INFO, the product Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM') has been added to cart 435
+2023-04-24 20:10:52,802, INFO, consumer is trying to add the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM') into cart 435
+2023-04-24 20:10:52,802, INFO, the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM') has been added to cart 435
+2023-04-24 20:10:52,802, INFO, consumer is trying to add the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM') into cart 435
+2023-04-24 20:10:52,802, INFO, the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM') has been added to cart 435
+2023-04-24 20:10:52,802, INFO, consumer is trying to add the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM') into cart 435
+2023-04-24 20:10:52,802, INFO, the product Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM') has been added to cart 435
+2023-04-24 20:10:52,802, INFO, consumer is placing the order from card 435
+2023-04-24 20:10:52,802, INFO, the order from cart 435 has been placed
+2023-04-24 20:10:52,803, INFO, 30 is publishing the product Tea(name='Jasmine', price=6, type='Green')
+2023-04-24 20:10:52,803, INFO, queue is full, producer 30 should wait
+2023-04-24 20:10:52,807, INFO, 7 is publishing the product Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+2023-04-24 20:10:52,807, INFO, queue is full, producer 7 should wait
+2023-04-24 20:10:52,808, INFO, consumer is trying to add the product Tea(name='Jasmine', price=6, type='Green') into cart 453
+2023-04-24 20:10:52,809, INFO, the product Tea(name='Jasmine', price=6, type='Green') has been added to cart 453
+2023-04-24 20:10:52,809, INFO, consumer is trying to remove the product Tea(name='Jasmine', price=6, type='Green') from cart 453
+2023-04-24 20:10:52,809, INFO, the product Tea(name='Jasmine', price=6, type='Green') has been remove from card 453
+2023-04-24 20:10:52,809, INFO, consumer is trying to remove the product Tea(name='Jasmine', price=6, type='Green') from cart 453
+2023-04-24 20:10:52,809, INFO, the product Tea(name='Jasmine', price=6, type='Green') has been remove from card 453
+2023-04-24 20:10:52,809, INFO, consumer is placing the order from card 453
+2023-04-24 20:10:52,809, INFO, the order from cart 453 has been placed
