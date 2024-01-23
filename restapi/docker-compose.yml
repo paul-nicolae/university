@@ -1,0 +1,51 @@
+# docker-compose.yml
+version: "3"
+services:
+  app:
+    restart: on-failure
+    build: .
+    depends_on:
+      - postgres
+    env_file:
+      - ./.env
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app/
+      - /app/node_modules
+    networks:
+      - api_network
+    container_name: app
+
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    env_file:
+      - ./.env
+    ports:
+      - 80:80
+    depends_on:
+      - postgres
+    networks:
+      - pgadmin_network
+    container_name: pgadmin
+
+  postgres:
+    image: postgres:13-alpine
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    env_file:
+      - ./.env
+    networks:
+      - api_network
+      - pgadmin_network
+    container_name: postgres
+
+networks:
+  api_network: {}
+  pgadmin_network: {}
+
+volumes:
+  postgres_data: {}
